@@ -1,0 +1,253 @@
+a {
+    color: #2E2B2B;
+    text-decoration: none;
+}
+
+.wholePage {
+    background-color: #F6F1F1;
+    padding: 0%;
+    margin: 0%;
+}
+
+.font {
+    font-family: 'Inter', sans-serif;
+}
+
+.sean1 {
+    max-width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.default {
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar {
+    background-color: #D9D9D9;
+    height: 15vh;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nameholder {
+    height: 70vh;
+    top: 15vh;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    background: rgba(211, 213, 211, 0.3);
+}
+
+.name {
+    color: #ffffffff;
+    font-weight: 400;
+    font-size: 15vh;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 6px 8px rgba(0, 0, 0, 0.44);
+}
+
+.biografi {
+    background-color: #FFFFFF;
+    color: #2E2B2B;
+    height: 70vh;
+    top: 85vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 60%;
+    margin-top: 5vh;
+}
+
+
+.bio {
+    margin-top: 4vh;
+    font-size: 20px;
+}
+
+.contact {
+    background-color: #F6F1F1;
+    height: 80vh;
+    top: 155vh;
+}
+
+.quote {
+    font-size: 25px;
+}
+
+.borderPembantu {
+    border: solid black 3px;
+}
+
+.navContainer {
+    line-height: 30px;
+    margin-top: 7vh;
+    margin-left: 15vh;
+}
+
+.bigNav {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.smallNav {
+    transition: all .2s ease-in-out;
+}
+
+.smallNav:hover {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.contact h2 {
+    margin-top: 60px;
+    margin-bottom: 45px;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 30vh;
+}
+
+.conContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sean2 {
+    width: 40vh;
+    border-radius: 25px;
+}
+
+.button {
+    width: 60vh;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* projects.html */
+
+.progContainer {
+    display: grid;
+    margin-top: 15vh;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.progContainer img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.progContainer img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        height: 6vh;
+    }
+
+    .name {
+        font-size: 4vh;
+    }
+
+    .nameholder {
+        height: 20vh;
+        top: 6vh;
+    }
+
+    .biografi {
+        top: 26vh;
+        height: 50vh;
+    }
+
+    .contact {
+        top: 76vh;
+        height: 40vh;
+    }
+
+    .textContainer {
+        margin-top: 1vh;
+        width: 80%;
+    }
+
+    .textContainer h2 {
+        font-size: 17px;
+    }
+
+    .bio {
+        font-size: 10px;
+    }
+
+    .navContainer {
+        line-height: 20px;
+        margin-top: 2vh;
+        margin-left: 5vh;
+    }
+
+    .bigNav {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .smallNav:hover {
+        font-size: 20px;
+    }
+
+    .sean2 {
+        width: 16vh;
+        border-radius: 15px;
+    }
+
+    .contact h2 {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-decoration: underline;
+        font-size: 17px;
+        margin-left: 3vh;
+    }
+
+    .button {
+        width: 20vh;
+        margin-bottom: 10px;
+    }
+
+    /*projects.html*/
+    .progContainer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media (min-width: 700px)  {
+    .bio{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1500px)  {
+    .bio{
+        font-size: 20px;
+    }
+}
